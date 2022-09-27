@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Conteúdo*/
+
+.conteudo-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: hsl(30, 38%, 92%);
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.conteudo-img {
+  width: 375px;
+  height: 560px;
+  background-image: url("/images/image-product-desktop.jpg");
+  background-size: 375px;
+  border-radius: 10px 0 0 10px;
+}
+
+/*Descrição*/
+
+.conteudo-texto {
+  background: hsl(0, 0%, 100%);
+  width: 375px;
+  height: 560px;
+  border-radius: 0 10px 10px 0;
+}
+
+.conteudo-texto h1 {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 250px;
+  padding: 0 40px;
+  line-height: 1.1em;
+  margin-bottom: 25px;
+}
+
+.conteudo-texto h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.93rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  padding: 40px 40px 0 40px;
+  margin-bottom: 25px;
+}
+
+.conteudo-texto p {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: hsl(228, 12%, 48%);
+  padding: 0 40px;
+  max-width: 250px;
+  line-height: 1.8em;
+  margin-bottom: 30px;
+}
+
+/*Preço*/
+
+.preco {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  color: hsl(158, 36%, 37%);
+  padding: 0 40px;
+  margin-bottom: 35px;
+}
+
+.preco span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+/*Botão*/
+
+.botao {
+  background: hsl(158, 36%, 37%);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-self: center;
+  align-content: space-between;
+  font-size: 0.9rem;
+  gap: 10px;
+  padding: 20px 80px;
+  border-radius: 10px;
+}
+
+.botao:hover {
+  background: hsl(157, 71%, 9%);
+}
+
+/*Mobile*/
+
+@media (max-width: 800px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .conteudo-img {
+    background-image: url("/images/image-product-mobile.jpg");
+    height: 260px;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .conteudo-texto {
+    border-radius: 0 0 10px 10px;
+    height: 450px;
+    width: 350px;
+  }
+
+  .conteudo-texto h2 {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  .conteudo-texto h1 {
+    font-size: 1.87rem;
+    max-width: 400px;
+  }
+
+  .conteudo-texto p {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .preco {
+    margin-bottom: 25px;
+  }
+
+  .botao {
+    padding: 20px 70px;
+  }
+}
