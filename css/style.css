@@ -27,6 +27,7 @@ img {
   justify-content: center;
   width: 100%;
   height: 100vh;
+  align-content: center;
   background: hsl(30, 38%, 92%);
 }
 
@@ -41,7 +42,7 @@ img {
 .conteudo-img {
   width: 375px;
   height: 560px;
-  background-image: url("/images/image-product-desktop.jpg");
+  background-image: url("/product-preview-card/images/image-product-desktop.jpg");
   background-size: 375px;
   border-radius: 10px 0 0 10px;
 }
@@ -132,22 +133,27 @@ img {
 /*Mobile*/
 
 @media (max-width: 800px) {
+  .conteudo-bg {
+    background: hsl(30, 38%, 92%);
+  }
+
   .conteudo {
     display: grid;
     grid-template-columns: 1fr;
     padding: 10px;
+    background: hsl(30, 38%, 92%);
   }
 
   .conteudo-img {
-    background-image: url("/images/image-product-mobile.jpg");
-    height: 260px;
+    background-image: url("/product-preview-card/images/image-product-mobile.jpg");
+    height: 240px;
     width: 350px;
     border-radius: 10px 10px 0 0;
   }
 
   .conteudo-texto {
     border-radius: 0 0 10px 10px;
-    height: 450px;
+    height: 400px;
     width: 350px;
   }
 
@@ -161,18 +167,20 @@ img {
   .conteudo-texto h1 {
     font-size: 1.87rem;
     max-width: 400px;
+    margin-bottom: 15px;
   }
 
   .conteudo-texto p {
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .preco {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    font-size: 1.87rem;
   }
 
   .botao {
-    padding: 20px 70px;
+    padding: 15px 70px;
   }
 }
