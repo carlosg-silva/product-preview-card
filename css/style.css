@@ -4,6 +4,7 @@ body {
   font-family: "Fraunces", serif;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  background: hsl(30, 38%, 92%);
 }
 
 h1,
