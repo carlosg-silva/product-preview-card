@@ -146,38 +146,38 @@ img {
 
   .conteudo-img {
     background-image: url("/product-preview-card/images/image-product-mobile.jpg");
-    height: 240px;
+    max-height: 220px;
     width: 350px;
     border-radius: 10px 10px 0 0;
   }
 
   .conteudo-texto {
     border-radius: 0 0 10px 10px;
-    height: 400px;
+    height: 370px;
     width: 350px;
   }
 
   .conteudo-texto h2 {
-    padding-top: 30px;
+    padding-top: 20px;
     margin-bottom: 10px;
     font-size: 0.8rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .conteudo-texto h1 {
-    font-size: 1.87rem;
+    font-size: 1.7rem;
     max-width: 400px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .conteudo-texto p {
     max-width: 300px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .preco {
     margin-bottom: 20px;
-    font-size: 1.87rem;
+    font-size: 1.7rem;
   }
 
   .botao {
