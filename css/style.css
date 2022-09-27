@@ -135,6 +135,9 @@ img {
 @media (max-width: 800px) {
   .conteudo-bg {
     background: hsl(30, 38%, 92%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
   }
 
   .conteudo {
