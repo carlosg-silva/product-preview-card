@@ -43,7 +43,7 @@ img {
 .conteudo-img {
   width: 375px;
   height: 560px;
-  background-image: url("/product-preview-card/images/image-product-desktop.jpg");
+  background-image: url("/images/image-product-desktop.jpg");
   background-size: 375px;
   border-radius: 10px 0 0 10px;
 }
@@ -149,7 +149,7 @@ img {
   }
 
   .conteudo-img {
-    background-image: url("/product-preview-card/images/image-product-mobile.jpg");
+    background-image: url("/images/image-product-mobile.jpg");
     max-height: 220px;
     width: 350px;
     border-radius: 10px 10px 0 0;
